@@ -6,11 +6,11 @@ class: center, middle
 
 class: center, middle
 
-# Please ask questions!
+## Ask questions!
 
 ---
 
-# Agenda
+## Agenda
 
 - Setup
 - Why Rust?
@@ -21,21 +21,42 @@ class: center, middle
 
 ---
 
+## Setup
+
+- Get Rust using Rustup:  
+  https://www.rustup.rs
+
+- Make sure `cargo --version` works
+
+- Cheat sheet:
+  ```
+cargo init --bin DIRECTORY   # create a new binary project
+cargo init --lib DiRECTORY   # create a new library project
+cargo build                  # build the project
+cargo test                   # run unit tests
+cargo run                    # run the main binary
+```
+
+- Can also use rust playground:  
+  https://play.rust-lang.org
+
+---
+
 class: center, middle
 
-# Why Rust?
+## Why Rust?
 
 ---
 
-# Why Rust?
+## Why Rust?
 
-## Memory safety without garbage collection
+### Memory safety without garbage collection
 
 ---
 
-# Why Rust?
+## Why Rust?
 
-## Garbage collected languages are inefficient
+### Garbage collected languages are inefficient
 
 - Power hungry, bad for mobile
 
@@ -45,27 +66,27 @@ class: center, middle
 
 ---
 
-# Why Rust?
+## Why Rust?
 
-## C and C++ are not good enough
+### C and C++ are not good enough
 
 - Insecure, even at the expert level
 - C++ is a garbage heap of poorly-interacting features
 
 ---
 
-# Why Rust?
+## Why Rust?
 
-## Excellent interoperability with C and C++
+### Excellent interoperability with C and C++
 
 - FFI between C and Rust is easy
 - Interoperability means that there is an upgrade path!
 
 ---
 
-# Why Rust?
+## Why Rust?
 
-## Powerful and ergonomic language features
+### Powerful and ergonomic language features
 
 - Enums and pattern matching
 - Iterators
@@ -75,9 +96,9 @@ class: center, middle
 
 ---
 
-# Why Rust?
+## Why Rust?
 
-## Language design prevents many bugs
+### Language design prevents many bugs
 
 - Explicitly sized types (`u8`, `i32`, `f32`, etcetera)
 
@@ -87,9 +108,9 @@ class: center, middle
 
 ---
 
-# Why Rust?
+## Why Rust?
 
-## Best build system and package manager in the world!
+### Best build system and package manager in the world!
 
 - Excellent dependency management
 
@@ -99,9 +120,9 @@ class: center, middle
 
 ---
 
-# Why Rust?
+## Why Rust?
 
-## Excellent community
+### Excellent community
 
 - IRC and subreddit are full of friendly, nice, *smart* people
 
@@ -109,11 +130,11 @@ class: center, middle
 
 class: center, middle
 
-# Why not Rust?
+## Why not Rust?
 
 ---
 
-# Why not Rust?
+## Why not Rust?
 
 - Explicit error handling is verbose
 
@@ -124,7 +145,7 @@ class: center, middle
 
 ---
 
-# Tricky bits
+## Tricky bits
 
 - Mutability
   - Variables are immutable by default
@@ -140,11 +161,11 @@ class: center, middle
 
 - Lifetimes
   - Annotations to allow the compiler to make sure you are using memory safely
-  - [example](https://play.rust-lang.org)
+  - [example](https://play.rust-lang.org/?gist=7b7e047966f262d3bd111325de25b25f&version=stable)
 
 ---
 
-# Resources
+## Resources
 
 - Rustup, the Rust toolchain installer:  
   https://www.rustup.rs
@@ -164,8 +185,19 @@ class: center, middle
 - IRC Cloud:  
   https://www.irccloud.com
 
+- These slides:  
+  https://github.com/casey/rust-workshop
+
 ---
 
 class: center, middle
 
-# Let's code!
+## Let's code!
+
+---
+
+## Let's code!
+
+- Rust can be brutally difficult. Don't worry if it takes a lot of effort to understand something.
+
+- im here for you bb <3
