@@ -85,7 +85,7 @@ Write a function that returns the base 10 digits of a number. For example, when 
 Function signature:
 
 ```
-fn digits(n: ) -> Vec<char> {
+fn digits(n: &str) -> Vec<char> {
   // insert code here!
 }
 ```
