@@ -116,7 +116,7 @@ Hello, Bob!           # from program
 Go Forth
 --------
 
-Write a postfix notation arithmetic interpreter. It should take a string of numbers and arithmetic operations, and return the result of evaluating them as a postfix notation expression.
+Write a postfix notation arithmetic interpreter. It should take a string of space-separated numbers and arithmetic operators, and return the result of evaluating them as a postfix notation expression.
 
 For example:
 
@@ -130,3 +130,7 @@ $ 8 2 /
 $ 10 11 8 * * 2 /
 440
 ```
+
+You'll need to use a Vec as a stack.
+
+You should print a discriptive error if input is malformed.
