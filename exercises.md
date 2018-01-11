@@ -134,3 +134,56 @@ $ 10 11 8 * * 2 /
 You'll need to use a Vec as a stack.
 
 You should print a discriptive error if input is malformed.
+
+
+Go Forther
+----------
+
+Extend the interpreter in the previous exercise with additional functionality:
+
+- An equality testing operator, `=`, that returns 1 if the top two items of the stack are equal, and 0 if not:
+
+```
+$ 1 1 =
+1
+$ 1 2 =
+0
+```
+
+- A modulus operator, `%`, that returns the second from the top item on the stack modulo the top item on the stack:
+
+```
+$ 10 5 %
+0
+$ 1 2 %
+1
+$ 7 3 %
+1
+```
+
+
+Go Forthest
+-----------
+
+Extend the interpreter in the previous exercise with additional functionality:
+
+- Conditional execution, with `IF <A> ELSE <B> THEN`. If the top item of the stack is 1, execute the operations between IF and ELSE, else execute the operations between ELSE and THEN.
+
+```
+$ 1 IF 10 ELSE 20 THEN
+10
+$ 0 IF 10 ELSE 20 THEN
+20
+```
+
+- Functions. A function is defined with `: NAME <BODY> ;`. After the function definition, a reference to `NAME` executes the operations between `NAME` and `;`:
+
+```
+$ : EVEN 2 % 0 = ; 10 EVEN
+1
+```
+
+Go Fortheseter
+--------------
+
+Write `fib` in the interpreter you wrote in the previous exercise.
