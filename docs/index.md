@@ -186,7 +186,7 @@ class: center, middle
   https://www.irccloud.com
 
 - These slides:  
-  https://github.com/casey/rust-workshop
+  https://casey.github.io/rust-workshop
 
 ---
 
@@ -197,6 +197,9 @@ class: center, middle
 ---
 
 ## Let's code!
+
+- I've put some suggested exercises up here:  
+  https://github.com/casey/rust-workshop/blob/master/exercises.md
 
 - Rust can be brutally difficult. Don't worry if it takes a lot of effort to understand something.
 
