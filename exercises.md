@@ -111,3 +111,22 @@ Please enter a name:  # from program
 Bob                   # typed by user
 Hello, Bob!           # from program
 ```
+
+
+Go Forth
+--------
+
+Write a postfix notation arithmetic interpreter. It should take a string of numbers and arithmetic operations, and return the result of evaluating them as a postfix notation expression.
+
+For example:
+
+```
+$ 1 2 +
+3
+$ 3 7 *
+21
+$ 8 2 /
+4
+$ 10 11 8 * * 2 /
+440
+```
