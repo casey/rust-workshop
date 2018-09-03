@@ -29,7 +29,7 @@ class: center, middle
 - Make sure `cargo --version` works
 
 - Cheat sheet:
-  ```
+```
 cargo init --bin DIRECTORY   # create a new binary project
 cargo init --lib DiRECTORY   # create a new library project
 cargo build                  # build the project
